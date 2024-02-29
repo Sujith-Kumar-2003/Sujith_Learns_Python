@@ -19,3 +19,12 @@
  # Level 2: [3,7,9]
  # Level 3: [12,8,6,2]
  # Since levels 0 and 2 are all odd and increasing and levels 1 and 3 are all even and decreasing, the tree is Even-Odd.
+
+
+ # CODE:
+ # Definition for a binary tree node.
+ class TreeNode:
+     def __init__(self, val=0, left=None, right=None):
+         self.val = val
+         self.left = left
+         self.right = right
